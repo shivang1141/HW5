@@ -57,7 +57,7 @@ function validate() {
         required:   "ERROR: no number was entered."
       }
     },
-
+      //https://stackoverflow.com/questions/17934565/submithandler-function-not-working
     submitHandler: function() {
       table_calculater();
       return false;
